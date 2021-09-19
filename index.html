@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="index.css">
+    <title>Calculator</title>
+</head>
+<body>
+   <!--INPUT BOX-------->
+    <div class="numbox">
+        <div id="number1">Number1</div>
+        <div id="symbol">Symbol</div>
+        <div id="number2">Number2</div>
+        <div id="output">= OUTPUT</div>
+    </div>
+     
+    <!--OPERATIONS-------->
+    <div class="ops">
+        <div id="add" onclick="add()"><button class="border">ADD</button></div>
+        <div id="sub" onclick="sub()" ><button class="border">SUB</button></div>
+        <div id="multi" onclick="multi()"><button class="border">MULTIPLY</button></div>
+        <div id="divi" onclick="div()"><button class="border">DIVIDE</button></div>
+    </div>
+
+    <!--AUXILARY BUTTONS-->
+    <div class="aux">
+        <div id="save" onclick="save()"><button class="borderz">SAVE</button></button></div>
+        <div id="reset" onclick="reset()"><button class="borderz">RESET</button></div>
+    </div>
+
+    <!--PREVIOUS ENTERIES-->
+    <div id="prev">
+        MEMORY:
+    </div>
+
+  <script src="index.js"></script>  
+</body>
+</html>
